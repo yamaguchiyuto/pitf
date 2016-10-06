@@ -5,6 +5,7 @@ Pairwise Interaction Tensor Factorization
 ```
 % python train.py -i sample.train -k 32 -a 0.0001 -l 0.1 -m 100 -o sample.model
 % python predict.py -i sample.test -m sample.model -o sample.result
+% python evaluate.py -a sample.answer -r sample.result
 ```
 
 ##Usage
