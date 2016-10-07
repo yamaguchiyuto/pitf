@@ -1,5 +1,3 @@
-import itertools
-import copy
 import numpy as np
 
 class PITF:
