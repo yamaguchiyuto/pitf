@@ -74,3 +74,4 @@ optional arguments:
 Each row indicates one data sample (zero-based indices).
 Each column indicates the indices of corresponding mode.
 e.g., the first row means X_{0,1,0} = 1
+Sample data is available at https://zenodo.org/record/13966#.WCHGjdzT2Vs.
