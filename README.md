@@ -1,6 +1,6 @@
 Pairwise Interaction Tensor Factorization
 
-##Example
+## Example
 
 ```
 % python train.py -i sample.train -k 32 -a 0.0001 -l 0.1 -m 100 -o sample.model
@@ -8,7 +8,7 @@ Pairwise Interaction Tensor Factorization
 % python evaluate.py -a sample.answer -r sample.result
 ```
 
-##Usage
+## Usage
 
 ```
 % python train.py -h
@@ -43,7 +43,7 @@ optional arguments:
                         output file (default=STDOUT)
 ```
 
-##Input data
+## Input data
 
 ```
 % head -n10 sample.train
@@ -74,4 +74,4 @@ optional arguments:
 Each row indicates one data sample (zero-based indices).
 Each column indicates the indices of corresponding mode.
 e.g., the first row means X_{0,1,0} = 1
-Sample data is available at https://zenodo.org/record/13966#.WCHGjdzT2Vs.
+Sample data is available at [https://zenodo.org/record/13966#.WCHGjdzT2Vs](https://zenodo.org/record/13966#.WCHGjdzT2Vs).
